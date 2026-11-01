@@ -1,0 +1,19 @@
+# Publish source code only.
+*
+!.gitignore
+!*.py
+!*.ipynb
+
+# Keep generated checkpoints, model weights, datasets, and runtime output local.
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.xml
+*.txt
+logs/
+runs/
